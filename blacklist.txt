@@ -1,0 +1,13 @@
+# NetheriteParser blacklist
+#
+# One IP or CIDR per line. A config whose entry address or measured exit
+# address falls inside any entry is written to sub/dead.txt and never published.
+# Blank lines and `#` comments are ignored.
+#
+# Examples:
+#   203.0.113.9
+#   198.51.100.0/24
+#
+# This file is optional: a run without it treats every address as eligible and
+# says so in the log. Existing is not the same as being wrong, so an empty file
+# is also valid.

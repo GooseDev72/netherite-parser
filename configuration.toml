@@ -1,0 +1,42 @@
+# NetheriteParser settings.
+#
+# Every value here can be overridden on the command line; the flag wins. If this
+# file is absent the built-in defaults apply unchanged.
+
+[limits]
+# Stop after this many deduplicated candidates; 0 = no cap.
+max_nodes = 0
+# Keep at most this many candidates from one source; 0 = all.
+per_source = 0
+# Fetch at most this many sources; 0 = all.
+max_sources = 0
+# Probe processes alive at once, per core (Xray, then mihomo).
+concurrency = 6
+# Speed downloads at once. Above 1 they share the local line and every node
+# looks slower than it is.
+speed_concurrency = 1
+# Sources fetched at once.
+fetch_concurrency = 8
+# Extra attempts for a node that did not answer; 0 = one attempt.
+retry_dead = 0
+
+[thresholds]
+# A published node has to reach this many Mbit/s. If the local line is slower
+# than this, the floor drops to three quarters of the line instead of rejecting
+# every node.
+speed_mbps = 15.0
+# Handshake and exit lookup budget, in seconds.
+node_timeout_secs = 20
+# Exit lookup budget on its own, in seconds.
+exit_timeout_secs = 20
+# Per-URL download budget, in seconds.
+speed_timeout_secs = 20
+# Bytes to ask for in the speed test.
+speed_bytes = 10000000
+
+[identity]
+# Used in the profile title and in every node name.
+name = "Netherite"
+# Written as `#announce: <text>` after the three profile headers. Leave it
+# empty for no announce line.
+announce = "🪨 Netherite — verified through mihomo and Xray"
