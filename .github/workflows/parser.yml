@@ -1,0 +1,79 @@
+name: Update Sub
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */1 * *'  # Every 24 hours
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: 📦 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Rust Toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Cache Cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Install Xray
+        run: |
+          curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh | sudo bash -s -- install
+          xray version
+
+      - name: Build project
+        run: cargo build --release
+
+      - name: 🚀 Run netherite
+        run: |
+          mkdir -p sub
+          cargo run --release -- --tg tg.txt --out sub --resume
+        working-directory: .
+        env:
+          RUST_BACKTRACE: 1
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 💾 Commit & Push updates
+        if: steps.git-check.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: |
+            🤖 Auto-update subs
+            
+            🕐 Время: ${{ github.run_started_at }}
+            🔧 Triggered by: ${{ github.event_name }}
+          file_pattern: "sub/*"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_options: "--signoff"
+          skip_fetch: false
+          skip_checkout: false
+          create_branch: false
