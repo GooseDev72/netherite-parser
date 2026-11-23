@@ -1691,6 +1691,7 @@ dependencies = [
 [[package]]
 name = "v2keylib"
 version = "0.1.0"
+source = "git+https://github.com/GooseDev72/v2keylib.git#d0d7cf08126075e37c65b760df52c4024e7030a9"
 dependencies = [
  "aes",
  "async-trait",
