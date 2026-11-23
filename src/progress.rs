@@ -259,6 +259,7 @@ impl Progress {
         if up {
             counter.fetch_add(1, Ordering::Relaxed);
         } else {
+            #[allow(deprecated)]
             let _ = counter.fetch_update(Ordering::Relaxed, Ordering::Relaxed, |count| {
                 Some(count.saturating_sub(1))
             });
