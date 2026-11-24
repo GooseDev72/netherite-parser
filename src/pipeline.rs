@@ -118,6 +118,8 @@ pub async fn run(settings: Settings) -> Result<Option<RunReport>> {
     }
 
     if settings.dry_run {
+        let report = sources::Report { stats: &merged.stats }.render();
+        let _ = crate::util::write_text(&settings.report_path(), &report);
         print_dry_run(&settings, &fetched, &merged, sources_used);
         return Ok(None);
     }
