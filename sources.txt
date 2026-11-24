@@ -1,7 +1,6 @@
 # NetheriteParser sources (trimmed)
 # 1 URL per line
 
-https://gist.githubusercontent.com/Diman331/8c868070c0b5a5ec0c7d94507717b67b/raw/subscription.txt
 https://gidroksi.fun/psub/cjnha04a
 https://gidroksi.fun/psub/mautp4m7
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
@@ -10,7 +9,6 @@ https://sub.vlessfo.ru/vlessforu/working_configs.txt
 https://codeberg.org/telegram-alt_vpn_obxod/obxod_white-black_list/raw/branch/main/subs.txt
 https://raw.githubusercontent.com/OceaniaVPN/StekloVPN/refs/heads/main/configs/user_5512307834_eab99a6c-a05b-48ee-b7a7-729b760e.txt
 https://raw.githubusercontent.com/gooseteam-hackers/freevpn-cracks/refs/heads/main/subscription_default.txt
-https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/Best-Results/proxies.txt
 https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/SSTime
 https://pozor.bond/sub/aeryxvpn
 https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Russia_part1_sub.txt
@@ -18,11 +16,9 @@ https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Europ
 https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Asia_part1_sub.txt
 https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Unknown_part1_sub.txt
 https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Other_part1_sub.txt
-https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/whitelist.txt
 https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/blacklist.txt
 https://github.com/theakres/VPN/raw/main/all
 https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt
-https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/bypass/bypass-all.txt
 https://vpnkeys.me/sub/incy/for-russia
 https://v2hub.link/sub/YGW0Q5b_LdpiR-Qg4lN6yEeL3mPGqVAmgXzv0B6u8Bg
 https://clck.ly/3WnEfT
@@ -36,11 +32,7 @@ https://resub.pirzok6.workers.dev/98165ed40f5fd1c0520402391450d52a
 https://tshbotpopup.ru/subscriptions/04920673-035c-410d-94e4-5b1469d3fb6f.txt
 https://raw.githubusercontent.com/Buffetbarko/Universal-Proxy-Config-Parser-/main/whitelist_vpn.txt
 https://raw.githubusercontent.com/btsk161/Freeinternet_byMygalaru.github.io/refs/heads/main/premium.txt
-https://raw.githubusercontent.com/Buffetbarko/Universal-Proxy-Config-Parser-/main/blacklist_vpn.txt
-https://raw.githubusercontent.com/cjsjsuz/sub1h/HEAD/out1h/sub.txt
-https://raw.githubusercontent.com/tqsmmm/v2ray-sub/main/sub.txt
 https://anna1211688.github.io/shadowrocket-auto/shadowrocket.txt
-https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=8Juv9Bmq/AAeapLL3qXh/XiVNtsomOx7B4VrXZAglnFfI6yksWUn%2BAAlcqT0gCXjhG5kH8HmMK7BRSY5nc5uRA%3D%3D
 https://raw.githubusercontent.com/Remiuc0ff/vpn-hiddifycode/refs/heads/main/sigridforum
 https://happy-decoder.cc/p/txt/https://p.kfwl.lol/https://bsdvpn.ru/-ceZ2ogOFlZ956cVkIOJeJ_kvkMmAQ
 https://gidroksi.fun/black-list
@@ -56,7 +48,6 @@ https://raw.githubusercontent.com/SoliSpirit/SolVPN/refs/heads/main/Countrys/Lat
 https://raw.githubusercontent.com/theakres/VPN/main/countries/DE
 https://raw.githubusercontent.com/theakres/VPN/main/countries/NL
 https://raw.githubusercontent.com/theakres/VPN/main/countries/PL
-https://raw.githubusercontent.com/theakres/VPN/main/countries/GB
 https://raw.githubusercontent.com/theakres/VPN/main/countries/FI
 https://raw.githubusercontent.com/theakres/VPN/main/countries/SE
 https://raw.githubusercontent.com/theakres/VPN/main/countries/FR
@@ -70,7 +61,6 @@ https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/count
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/CH.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/EE.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/FI.txt
-https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/GB.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/JP.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/LV.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/SE.txt
@@ -112,33 +102,25 @@ https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_mas
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://gist.githubusercontent.com/guidongone/cce77f5be24a53992b45038c3fc2b852/raw/cc7a5285d22a30257c5314364f043cbbaadb108f/%25E5%25B0%258F%25E9%259D%2592%25E7%25A7%2591%25E5%25AD%25A6%25E7%25BD%2591V2ray%25E5%2585%258D%25E8%25B4%25B9%25E8%258A%2582%25E7%2582%25B9260531.txt
-https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/26.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/27.txt
-https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/29.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/30.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/31.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/32.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/33.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/34.txt
-https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt
 https://gist.githubusercontent.com/sevushyamamoto-stack/17bd65436db9cccddc55ef376e70cd7a/raw/fe6f77c72aa75b7364e5d2bdc008ef22b4cb16e9/gistfile1.txt
-https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/ru/vless.txt
 https://raw.githubusercontent.com/ewecrow78-gif/whitelist1/main/list.txt
 https://raw.githubusercontent.com/ShadowException/VPN/refs/heads/main/configs/VPN-cat
 https://raw.githubusercontent.com/Ilyacom4ik/free-v2ray-2026/main/subscriptions/FreeCFGHub1.txt
 https://raw.githubusercontent.com/kort0881/vpn-checker-backend/main/checked/RU_Best/ru_white_all_WHITE.txt
-https://raw.githubusercontent.com/Maskkost93/kizyak-vpn-4.0/refs/heads/main/kizyakbeta7.txt
 https://raw.githubusercontent.com/HalyavusVPNUS/halyava-vpn-mini/refs/heads/main/mini.txt
 https://raw.githubusercontent.com/v0id9/vpn-configs/refs/heads/main/vpn.txt
 https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/non_ru.txt
 https://gist.githubusercontent.com/rerererere395/250704ddbcc30f383bfe7cc0e2f29ba8/raw/8991efca05d31299b948e50103b1b1d0d310f2d9/gistfile1.txt
-https://raw.githubusercontent.com/Diversan313/apex-parser/refs/heads/main/subs/main/alive_full.txt
-https://raw.githubusercontent.com/WSJuJuBA01/WS_Parser/refs/heads/main/subscription.txt
 https://gist.githubusercontent.com/SlavaKat/2d75a18830db8315ee79d58f5ee62e30/raw/
 https://raw.githubusercontent.com/flaafix/AetrisVPN-white-list-lite/refs/heads/main/AetrisVPN.txt
 https://gitverse.ru/api/repos/Bazz1024/vpn-configs-mirror/raw/branch/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://gitverse.ru/api/repos/Pizduk/PizdukVPN/raw/branch/master/WlSubPiz.txt
 https://gidroksi.fun/white-list
-https://raw.githubusercontent.com/WSJuJuB01/WSVPN/refs/heads/main/sub.txt
 https://raw.githubusercontent.com/bobrinaw/vlessforu/refs/heads/main/working_configs.txt
