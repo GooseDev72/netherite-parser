@@ -40,7 +40,6 @@ https://raw.githubusercontent.com/Buffetbarko/Universal-Proxy-Config-Parser-/mai
 https://raw.githubusercontent.com/cjsjsuz/sub1h/HEAD/out1h/sub.txt
 https://raw.githubusercontent.com/tqsmmm/v2ray-sub/main/sub.txt
 https://anna1211688.github.io/shadowrocket-auto/shadowrocket.txt
-https://raw.githubusercontent.com/Ilyacom4ik/free-v2ray-2026/refs/heads/main/subscriptions/all_base64.txt
 https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=8Juv9Bmq/AAeapLL3qXh/XiVNtsomOx7B4VrXZAglnFfI6yksWUn%2BAAlcqT0gCXjhG5kH8HmMK7BRSY5nc5uRA%3D%3D
 https://raw.githubusercontent.com/Remiuc0ff/vpn-hiddifycode/refs/heads/main/sigridforum
 https://happy-decoder.cc/p/txt/https://p.kfwl.lol/https://bsdvpn.ru/-ceZ2ogOFlZ956cVkIOJeJ_kvkMmAQ
@@ -113,7 +112,6 @@ https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_mas
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
 https://gist.githubusercontent.com/guidongone/cce77f5be24a53992b45038c3fc2b852/raw/cc7a5285d22a30257c5314364f043cbbaadb108f/%25E5%25B0%258F%25E9%259D%2592%25E7%25A7%2591%25E5%25AD%25A6%25E7%25BD%2591V2ray%25E5%2585%258D%25E8%25B4%25B9%25E8%258A%2582%25E7%2582%25B9260531.txt
-https://raw.githubusercontent.com/pog7x/vpn-configs/refs/heads/master/githubmirror/1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/26.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/27.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt
