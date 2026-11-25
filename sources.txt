@@ -3,9 +3,7 @@
 
 https://gidroksi.fun/psub/cjnha04a
 https://gidroksi.fun/psub/mautp4m7
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://raw.githubusercontent.com/OceaniaVPN/StekloVPN/refs/heads/main/configs/okeania_auto.txt
-https://sub.vlessfo.ru/vlessforu/working_configs.txt
 https://codeberg.org/telegram-alt_vpn_obxod/obxod_white-black_list/raw/branch/main/subs.txt
 https://raw.githubusercontent.com/OceaniaVPN/StekloVPN/refs/heads/main/configs/user_5512307834_eab99a6c-a05b-48ee-b7a7-729b760e.txt
 https://raw.githubusercontent.com/gooseteam-hackers/freevpn-cracks/refs/heads/main/subscription_default.txt
@@ -28,10 +26,7 @@ https://dds.yandexdns-api-service.help/sub/97ISLYSEBA/
 https://raw.githubusercontent.com/Ilyacom4ik/free-v2ray-2026/refs/heads/main/subscriptions/FreeCFGHub1.txt
 https://raw.githubusercontent.com/Diversan313/apex-parser/refs/heads/main/subs/other/exotic/alive_plain_exotic.txt
 https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=wiq6mxJkeDA4iTsNc46%2B%2Bmxno5%2B1VG6m5LeYlbNA1kLt5J2vVoj/a6fEi53OHDxSpyGPSCIdbCqC15dCfIQsqgB4wZ0k2tr1AXjNbF9I735NA7YqAzR7xww5XAJz63dh
-https://resub.pirzok6.workers.dev/98165ed40f5fd1c0520402391450d52a
 https://tshbotpopup.ru/subscriptions/04920673-035c-410d-94e4-5b1469d3fb6f.txt
-https://raw.githubusercontent.com/Buffetbarko/Universal-Proxy-Config-Parser-/main/whitelist_vpn.txt
-https://raw.githubusercontent.com/btsk161/Freeinternet_byMygalaru.github.io/refs/heads/main/premium.txt
 https://anna1211688.github.io/shadowrocket-auto/shadowrocket.txt
 https://raw.githubusercontent.com/Remiuc0ff/vpn-hiddifycode/refs/heads/main/sigridforum
 https://happy-decoder.cc/p/txt/https://p.kfwl.lol/https://bsdvpn.ru/-ceZ2ogOFlZ956cVkIOJeJ_kvkMmAQ
@@ -61,7 +56,6 @@ https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/count
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/CH.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/EE.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/FI.txt
-https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/JP.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/LV.txt
 https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/country/SE.txt
 https://raw.githubusercontent.com/SoliSpirit/SolVPN/refs/heads/main/Countrys/Switzerland.txt
@@ -70,11 +64,9 @@ https://raw.githubusercontent.com/theakres/VPN/refs/heads/main/protocols/hysteri
 https://cdn.jsdelivr.net/gh/ANT1VEN0M/Bunker-Auto-Engine@latest/sub/bs_b64.txt
 https://cdn.jsdelivr.net/gh/ANT1VEN0M/Bunker-Auto-Engine@latest/sub/discord_b64.txt
 https://cdn.jsdelivr.net/gh/ANT1VEN0M/Bunker-Auto-Engine@latest/sub/gold_b64.txt
-https://cdn.jsdelivr.net/gh/ANT1VEN0M/Bunker-Auto-Engine@latest/sub/mix_b64.txt
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/bs_b64.txt
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/discord_b64.txt
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/gold_b64.txt
-https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/mix_b64.txt
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_masque.json
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_masque.yaml
 https://ghfast.top/https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_masque_b64.txt
@@ -89,7 +81,6 @@ https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/game_b64
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/gold.json
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/gold.txt
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/gold_b64.txt
-https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/mix_b64.txt
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/protocols/hy2_b64.txt
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/protocols/ss_b64.txt
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/protocols/trojan_b64.txt
@@ -100,17 +91,11 @@ https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_mas
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_masque.yaml
 https://raw.githubusercontent.com/ANT1VEN0M/Bunker-Auto-Engine/main/sub/warp_masque_b64.txt
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt
-https://gist.githubusercontent.com/guidongone/cce77f5be24a53992b45038c3fc2b852/raw/cc7a5285d22a30257c5314364f043cbbaadb108f/%25E5%25B0%258F%25E9%259D%2592%25E7%25A7%2591%25E5%25AD%25A6%25E7%25BD%2591V2ray%25E5%2585%258D%25E8%25B4%25B9%25E8%258A%2582%25E7%2582%25B9260531.txt
-https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/27.txt
-https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/29.txt
-https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/30.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/31.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/32.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/33.1.txt
 https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/34.txt
 https://gist.githubusercontent.com/sevushyamamoto-stack/17bd65436db9cccddc55ef376e70cd7a/raw/fe6f77c72aa75b7364e5d2bdc008ef22b4cb16e9/gistfile1.txt
-https://raw.githubusercontent.com/ewecrow78-gif/whitelist1/main/list.txt
 https://raw.githubusercontent.com/ShadowException/VPN/refs/heads/main/configs/VPN-cat
 https://raw.githubusercontent.com/Ilyacom4ik/free-v2ray-2026/main/subscriptions/FreeCFGHub1.txt
 https://raw.githubusercontent.com/kort0881/vpn-checker-backend/main/checked/RU_Best/ru_white_all_WHITE.txt
@@ -119,8 +104,5 @@ https://raw.githubusercontent.com/v0id9/vpn-configs/refs/heads/main/vpn.txt
 https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/non_ru.txt
 https://gist.githubusercontent.com/rerererere395/250704ddbcc30f383bfe7cc0e2f29ba8/raw/8991efca05d31299b948e50103b1b1d0d310f2d9/gistfile1.txt
 https://gist.githubusercontent.com/SlavaKat/2d75a18830db8315ee79d58f5ee62e30/raw/
-https://raw.githubusercontent.com/flaafix/AetrisVPN-white-list-lite/refs/heads/main/AetrisVPN.txt
-https://gitverse.ru/api/repos/Bazz1024/vpn-configs-mirror/raw/branch/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 https://gitverse.ru/api/repos/Pizduk/PizdukVPN/raw/branch/master/WlSubPiz.txt
 https://gidroksi.fun/white-list
-https://raw.githubusercontent.com/bobrinaw/vlessforu/refs/heads/main/working_configs.txt
