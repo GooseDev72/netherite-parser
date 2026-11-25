@@ -834,6 +834,7 @@ name = "netherite"
 version = "0.1.0"
 dependencies = [
  "futures",
+ "netherite-core",
  "regex",
  "reqwest",
  "serde",
@@ -843,6 +844,21 @@ dependencies = [
  "tokio",
  "toml",
  "v2keylib",
+]
+
+[[package]]
+name = "netherite-core"
+version = "0.1.0"
+source = "git+https://github.com/GooseDev72/netherite-core.git#ae06c7a68d868b5e1ff9146456f82f8d56266e88"
+dependencies = [
+ "flate2",
+ "futures",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+ "tracing",
 ]
 
 [[package]]

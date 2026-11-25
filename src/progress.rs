@@ -90,6 +90,8 @@ struct State {
     published: AtomicUsize,
     slow: AtomicUsize,
     dead: AtomicUsize,
+    timeout: AtomicUsize,
+    error: AtomicUsize,
     blacklisted: AtomicUsize,
     frame: AtomicUsize,
     began: Instant,
@@ -98,6 +100,16 @@ struct State {
 }
 
 impl State {
+    fn stat_line(&self) -> String {
+        let done = self.done.load(Ordering::Relaxed);
+        let total = self.total.load(Ordering::Relaxed);
+        let published = self.published.load(Ordering::Relaxed);
+        let timeout = self.timeout.load(Ordering::Relaxed);
+        let error = self.error.load(Ordering::Relaxed);
+        let pending = total.saturating_sub(done);
+        format!("stat: pass {published} timeout {timeout} err {error} pending {pending}")
+    }
+
     fn line(&self, width: usize) -> String {
         let done = self.done.load(Ordering::Relaxed);
         let total = self.total.load(Ordering::Relaxed);
@@ -191,6 +203,8 @@ impl Progress {
             published: AtomicUsize::new(0),
             slow: AtomicUsize::new(0),
             dead: AtomicUsize::new(0),
+            timeout: AtomicUsize::new(0),
+            error: AtomicUsize::new(0),
             blacklisted: AtomicUsize::new(0),
             frame: AtomicUsize::new(0),
             began: Instant::now(),
@@ -202,11 +216,18 @@ impl Progress {
             let state = Arc::clone(&state);
             Some(std::thread::spawn(move || {
                 let width = terminal_width();
+                let mut first = true;
                 while !state.stopped.load(Ordering::Relaxed) {
                     state.frame.fetch_add(1, Ordering::Relaxed);
+                    let stat = state.stat_line();
                     let line = state.line(width);
                     if let Ok(_guard) = OUT.lock() {
-                        eprint!("\r\x1b[2K{line}");
+                        if first {
+                            eprint!("\r\x1b[2K{stat}\n\r\x1b[2K{line}");
+                            first = false;
+                        } else {
+                            eprint!("\x1b[1A\r\x1b[2K{stat}\n\r\x1b[2K{line}");
+                        }
                         let _ = std::io::stderr().flush();
                     }
                     std::thread::sleep(Duration::from_millis(100));
@@ -250,19 +271,23 @@ impl Progress {
     }
 
     fn bump(&self, status: &Status, up: bool) {
-        let counter = match status {
-            Status::Published => &self.state.published,
-            Status::TooSlow { .. } => &self.state.slow,
-            Status::Blacklisted { .. } => &self.state.blacklisted,
-            Status::Dead { .. } => &self.state.dead,
+        let counters: Vec<&AtomicUsize> = match status {
+            Status::Published => vec![&self.state.published],
+            Status::TooSlow { .. } => vec![&self.state.slow],
+            Status::Blacklisted { .. } => vec![&self.state.blacklisted],
+            Status::Dead { reason } => {
+                let r = reason.to_lowercase();
+                let is_timeout = r.contains("timeout") || r.contains("timed out") || r.contains("did not start");
+                if is_timeout { vec![&self.state.dead, &self.state.timeout] } else { vec![&self.state.dead, &self.state.error] }
+            }
         };
-        if up {
-            counter.fetch_add(1, Ordering::Relaxed);
-        } else {
-            #[allow(deprecated)]
-            let _ = counter.fetch_update(Ordering::Relaxed, Ordering::Relaxed, |count| {
-                Some(count.saturating_sub(1))
-            });
+        for counter in counters {
+            if up {
+                counter.fetch_add(1, Ordering::Relaxed);
+            } else {
+                #[allow(deprecated)]
+                let _ = counter.fetch_update(Ordering::Relaxed, Ordering::Relaxed, |count| Some(count.saturating_sub(1)));
+            }
         }
     }
 
@@ -301,7 +326,7 @@ impl Progress {
         }
         if self.interactive {
             if let Ok(_guard) = OUT.lock() {
-                eprint!("\r\x1b[2K");
+                eprint!("\r\x1b[2K\x1b[1A\r\x1b[2K");
                 let _ = std::io::stderr().flush();
             }
         }
