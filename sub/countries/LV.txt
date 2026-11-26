@@ -1,0 +1,6 @@
+# 🪨 Netherite Parser | 4 нод | фильтр по Latvia
+# 🔌 автор @goosedev72_vpnsubs / @GooseDev72
+vless://eb62cabf-5901-403a-aa0c-b1d9ed1b346d@213.183.45.23:8450?security=tls&encryption=none&sni=fonts.plumstatic.com&fp=firefox&type=ws&path=%2Fws&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%203802
+vless://81c91c05-179f-4b87-95ca-3306677fb310@62.60.148.146:443?security=tls&encryption=none&sni=g-it-2.r3vgawew123fg.pics&fp=firefox&type=ws&path=%2F&host=g-it-2.r3vgawew123fg.pics#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%203934
+vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&sid=5c256336e3b673fa&packetEncoding=xudp#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%209672
+ss://YWVzLTEyOC1nY206MjYzYmM5ZTNjNDFlYTcwZTFkNGQyZTg5YzhmYTgzN2E@109.248.148.138:11468#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%205607

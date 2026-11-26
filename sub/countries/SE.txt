@@ -1,0 +1,4 @@
+# 🪨 Netherite Parser | 2 нод | фильтр по Sweden
+# 🔌 автор @goosedev72_vpnsubs / @GooseDev72
+vless://b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b@138.124.86.230:48115?security=tls&encryption=none&sni=138-124-86-230.sslip.io&type=grpc&serviceName=138-124-86-230-sslip-io&mode=gun#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20-%20Netherite%20-%204788
+vmess://eyJ2IjoiMiIsImFkZCI6IjYyLjkzLjE2Ni4xODQiLCJwb3J0IjoiMTI3MCIsImlkIjoiNWMwNDBmMWQtNDVkYi00M2JkLThkNDYtZTQ5NTBlNDMzNzM1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6InhtZmhscHkuY29tIiwicmVtYXJrcyI6IvCfh7jwn4eqIFN3ZWRlbiAtIE5ldGhlcml0ZSAtIDMwMDQifQ==
