@@ -46,7 +46,7 @@ jobs:
       - name: 🚀 Run netherite
         run: |
           mkdir -p sub
-          cargo run --release -- --tg tg.txt --out sub --resume --max-nodes 1000
+          cargo run --release -- --tg tg.txt --out sub --resume --max-nodes 300
         working-directory: .
         env:
           RUST_BACKTRACE: 1
