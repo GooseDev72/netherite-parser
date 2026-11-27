@@ -5,63 +5,63 @@ passed = published in at least one subscription after both probes; unique = cred
 
 source                 raw  parsed  unique   alive  passed  note
 ------------------------------------------------------------------------------
-Europe_part1_sub        15      15      11      11      10  90.9% yield
-all                    119     119      11      11       9  81.8% yield
-FI                       7       7      18      10       8  44.4% yield
-FI                      39      39      18      10       8  44.4% yield
-for-russia              36      36      11       9       8  72.7% yield
-SE                       4       4      15      12       7  46.7% yield
-SE                      49      49      15      12       7  46.7% yield
-shadowrocket            22      22      11       9       7  63.6% yield
-CH                      42      42      11       7       7  63.6% yield
-non_ru                  18      18       9       7       7  77.8% yield
-DE                       7       7       7       7       6  85.7% yield
-US                      15      15      10       9       5  50.0% yield
-ru_white_all_WHITE     153     153      10       9       5  50.0% yield
-vless_universal        125     125      11       5       5  45.5% yield
-clean                   62      62      11       5       4  36.4% yield
-SSTime                  92      92       9       5       4  44.4% yield
-vless_b64               63      63       8       5       3  37.5% yield
-okeania_auto            41      41      11       4       3  27.3% yield
-LV                      18      18      11       3       3  27.3% yield
-fast_b64                50      50      10       3       2  20.0% yield
-mautp4m7               240     240      10       2       2  20.0% yield
-telegram               677     677      10       2       2  20.0% yield
+FI                      12      12      13      11      10  76.9% yield
+FI                      34      34      13      11      10  76.9% yield
+Europe_part1_sub        12      12      10      10      10  100.0% yield
+US                      23      23      10       8       7  70.0% yield
+shadowrocket            23      23       9       8       7  77.8% yield
+CH                      45      45       7       7       7  100.0% yield
+SSTime                 323     323       7       7       7  100.0% yield
+SE                       5       5      10      10       6  60.0% yield
+SE                      49      49      10      10       6  60.0% yield
+all                    178     178       8       8       6  75.0% yield
+vless_b64              150     150       9       7       6  66.7% yield
+tg_b64                  69      69       9       6       6  66.7% yield
+gold_b64                40      40       9       7       5  55.6% yield
+DE                      28      28      10       5       5  50.0% yield
+for-russia              26      26      10       5       5  50.0% yield
+FreeCFGHub1             44      44       9       5       5  55.6% yield
+ru_white_all_WHITE     126     126       6       5       4  66.7% yield
+vless_universal        121     121       6       4       4  66.7% yield
+non_ru                 136     136      10       3       3  30.0% yield
+okeania_auto            53      53      10       3       3  30.0% yield
+clean                   55      55       4       4       2  50.0% yield
 Other_part1_sub          2       2       2       2       2  100.0% yield
-FreeCFGHub1             24      24      11       1       1  9.1% yield
+mautp4m7               240     240       2       2       2  100.0% yield
+LV                      18      18       2       1       1  50.0% yield
+telegram               687     687       2       1       1  50.0% yield
 Asia_part1_sub           1       1       1       1       1  100.0% yield
 FR                       1       1       1       1       1  100.0% yield
 Latvia                   1       1       1       1       1  100.0% yield
-gold_b64                 1       1       1       1       1  100.0% yield
-Finland                  1       1      12       0       0  0.0% yield
-Finland                 97      97      12       0       0  0.0% yield
-EE                      24      24      11       0       0  0.0% yield
-VPN-cat                135     135      11       0       0  0.0% yield
-cjnha04a               120     120      11       0       0  0.0% yield
-subscription_defa…      92      92      11       0       0  0.0% yield
-vpn                     61      61       7       0       0  0.0% yield
-subs                    27      27       3       0       0  0.0% yield
+Finland                  1       1       2       1       0  0.0% yield
+Finland                 97      97       2       1       0  0.0% yield
+subscription_defa…      93      93      10       0       0  0.0% yield
+EE                      22      22       3       0       0  0.0% yield
+Russia_part1_sub         1       1       1       0       0  0.0% yield
 aeryxvpn                 1       1       1       0       0  0.0% yield
-sigridforum              5       5       1       0       0  0.0% yield
-NL                      25      25       0       0       0  duplicate of an earlier source
-Russia_part1_sub         0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/kort0881/vpn-private-poster/main/checked/Russia_part1_sub.txt: http 404
+fast_b64               150     150       1       0       0  0.0% yield
+NL                      29      29       0       0       0  duplicate of an earlier source
+VPN-cat                135     135       0       0       0  duplicate of an earlier source
 WlSubPiz                 0       0       0       0       0  error: subscription fetch error: https://gitverse.ru/api/repos/Pizduk/PizdukVPN/raw/branch/master/WlSubPiz.txt: http 429
+cjnha04a               120     120       0       0       0  duplicate of an earlier source
 de                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/de.txt: http 404
 fi                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/fi.txt: http 404
 gb                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/gb.txt: http 404
 nl                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/nl.txt: http 404
 pl                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/pl.txt: http 404
 se                       0       0       0       0       0  error: subscription fetch error: https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/countries/se.txt: http 404
-tg_b64                  27      27       0       0       0  duplicate of an earlier source
+sigridforum              5       5       0       0       0  duplicate of an earlier source
+subs                    27      27       0       0       0  duplicate of an earlier source
+vpn                     61      61       0       0       0  duplicate of an earlier source
 
 Most useful sources (by published nodes):
-  1. Europe_part1_sub — 10 passed (11 answered, 90.9% yield)
-  2. all — 9 passed (11 answered, 81.8% yield)
-  3. FI — 8 passed (10 answered, 44.4% yield)
-  4. FI — 8 passed (10 answered, 44.4% yield)
-  5. for-russia — 8 passed (9 answered, 72.7% yield)
-  6. SE — 7 passed (12 answered, 46.7% yield)
-  7. SE — 7 passed (12 answered, 46.7% yield)
-  8. shadowrocket — 7 passed (9 answered, 63.6% yield)
-  9. CH — 7 passed (7 answered, 63.6% yield)
-  10. non_ru — 7 passed (7 answered, 77.8% yield)
+  1. FI — 10 passed (11 answered, 76.9% yield)
+  2. FI — 10 passed (11 answered, 76.9% yield)
+  3. Europe_part1_sub — 10 passed (10 answered, 100.0% yield)
+  4. US — 7 passed (8 answered, 70.0% yield)
+  5. shadowrocket — 7 passed (8 answered, 77.8% yield)
+  6. CH — 7 passed (7 answered, 100.0% yield)
+  7. SSTime — 7 passed (7 answered, 100.0% yield)
+  8. SE — 6 passed (10 answered, 60.0% yield)
+  9. SE — 6 passed (10 answered, 60.0% yield)
+  10. all — 6 passed (8 answered, 75.0% yield)

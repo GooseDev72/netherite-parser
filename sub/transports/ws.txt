@@ -1,5 +1,5 @@
 # 🪨 Netherite Parser | 3 нод | фильтр по ws
 # 🔌 автор @goosedev72_vpnsubs / @GooseDev72
-vless://82a688a4-9cbf-47c5-a7a4-1754870d952b@93.123.101.179:443?security=tls&encryption=none&sni=grantapi.ratethatrestaurant.org&fp=firefox&type=ws&path=%2Fmedia%2Fws%2F#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20-%20Netherite%20-%207973
-vless://eb62cabf-5901-403a-aa0c-b1d9ed1b346d@213.183.45.23:8450?security=tls&encryption=none&sni=fonts.plumstatic.com&fp=firefox&type=ws&path=%2Fws&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%203802
-vless://81c91c05-179f-4b87-95ca-3306677fb310@62.60.148.146:443?security=tls&encryption=none&sni=g-it-2.r3vgawew123fg.pics&fp=firefox&type=ws&path=%2F&host=g-it-2.r3vgawew123fg.pics#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%203934
+vless://6bd1d88f-0a26-4d21-b325-15d85120b883@185.178.208.167:443?security=tls&encryption=none&sni=sw-api.telemetryapi.org&fp=qq&type=ws&path=%2Fapi%2Fv2%2Fclient%2Fsession%2Fconnect#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20-%20Netherite%20-%201119
+vless://6bd1d88f-0a26-4d21-b325-15d85120b883@185.178.208.167:443?security=tls&encryption=none&sni=sw-api.telemetryapi.org&fp=qq&alpn=http%2F1.1&type=ws&path=%2Fapi%2Fv2%2Fclient%2Fsession%2Fconnect#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20-%20Netherite%20-%204864
+vless://eb62cabf-5901-403a-aa0c-b1d9ed1b346d@213.183.45.23:8450?security=tls&encryption=none&sni=fonts.plumstatic.com&fp=firefox&type=ws&path=%2Fws&headerType=none#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20-%20Netherite%20-%201998

@@ -1,5 +1,5 @@
 # 🪨 Netherite Parser | 3 нод | фильтр по France
 # 🔌 автор @goosedev72_vpnsubs / @GooseDev72
-vless://dc155964-d93b-4d7c-bcd0-b13ab0f0f24b@189.74.117.17:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=api.videodolina.cc&fp=edge&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=a8#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%203333
-vless://e0f63cb5-4b2f-4a91-bb42-2c7d198787ef@189.74.117.19:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=api.videodolina.cc&fp=firefox&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=a8#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%209239
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@23.162.152.22:19999#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%209704
+vless://76c75192-37fb-408d-94e9-3e4b570fdb36@194.87.242.23:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=stream.selectus.ru&fp=firefox&pbk=ub1PHBkdqrCahRc4rgavIBm9EvIDWrZi0ff_OvEv8FU&sid=b0f839d2a5c7e146#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%203764
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@62.210.91.2:23576?security=reality&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=random&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%204190
+vless://ac01dcf5-a26d-46b1-9514-0ab4088ca813@189.74.117.20:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=api.videodolina.cc&fp=firefox&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=a8#%F0%9F%87%AB%F0%9F%87%B7%20France%20-%20Netherite%20-%207180

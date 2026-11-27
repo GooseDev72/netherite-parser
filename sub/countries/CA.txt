@@ -1,8 +1,6 @@
-# 🪨 Netherite Parser | 6 нод | фильтр по Canada
+# 🪨 Netherite Parser | 4 нод | фильтр по Canada
 # 🔌 автор @goosedev72_vpnsubs / @GooseDev72
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%201186
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=random&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%201695
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=firefox&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%204289
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%205436
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%205527
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.141.125:445#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%208328
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%201331
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=random&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%206545
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=firefox&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%207880
+vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?security=reality&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&sid=f98843107912e782#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20-%20Netherite%20-%209063

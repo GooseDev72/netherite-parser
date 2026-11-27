@@ -1,29 +1,31 @@
 {
   "mihomo_ver": "xray-fallback: Xray 26.11.9 (Xray, Penetrates Everything.) 676eaf6 (go1.27.3 linux/amd64)",
   "xray_ver": "Xray 26.11.9 (Xray, Penetrates Everything.) 676eaf6 (go1.27.3 linux/amd64)",
-  "total_cfg": 2539,
-  "total_parsed_cfg": 2539,
-  "total_merged_cfg": 300,
-  "total_dead_cfg": 186,
-  "total_xray_cfg": 100,
-  "total_mihomo_cfg": 97,
-  "total_vless_cfg": 68,
-  "total_ss_cfg": 26,
+  "total_cfg": 3244,
+  "total_parsed_cfg": 3244,
+  "total_merged_cfg": 195,
+  "total_dead_cfg": 78,
+  "total_xray_cfg": 107,
+  "total_mihomo_cfg": 100,
+  "total_vless_cfg": 70,
+  "total_ss_cfg": 19,
   "total_trojan_cfg": 0,
   "total_vmess_cfg": 2,
-  "total_hy2_cfg": 1,
+  "total_hy2_cfg": 8,
   "mihomo_compatible": {
-    "vless": 68,
+    "vless": 70,
     "vmess": 2,
     "trojan": 0,
-    "ss": 26,
-    "hy2": 1
+    "ss": 19,
+    "hy2": 8,
+    "other": 1
   },
   "xray_compatible": {
-    "vless": 74,
-    "vmess": 3,
+    "vless": 77,
+    "vmess": 2,
     "trojan": 0,
-    "ss": 22,
-    "hy2": 1
+    "ss": 18,
+    "hy2": 9,
+    "other": 1
   }
 }
