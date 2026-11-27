@@ -1,0 +1,1 @@
+{"$message_type":"unused_extern","lint_level":"force-warn","unused_extern_names":["aes","async_trait","bytes","hmac","md5","regex"]}

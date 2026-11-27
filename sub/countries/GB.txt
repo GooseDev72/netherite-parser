@@ -1,11 +1,6 @@
-# 🪨 Netherite Parser | 9 нод | фильтр по United Kingdom
+# 🪨 Netherite Parser | 4 нод | фильтр по United Kingdom
 # 🔌 автор @goosedev72_vpnsubs / @GooseDev72
-vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@153.56.231.174:443?security=reality&encryption=none&sni=a80b5386.fi16.h1clayd.click&fp=firefox&pbk=PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc&sid=cc678f10161992a9#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%204366
-vless://e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4@138.124.125.193:10444?security=reality&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=firefox&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%204740
-vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@153.56.231.174:443?security=reality&encryption=none&sni=f0f0bet.fi16.h1clayd.click&fp=firefox&pbk=GR2jS6u-CicgvYj-mnyfVpbYzkXw-WiXHr6hhqmir38&sid=795c3f4f29745c96#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%205519
-vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@153.56.231.174:443?security=reality&encryption=none&sni=78ec29x.fi16.h1clayd.click&fp=firefox&pbk=yDvxKBE3JdXsnptGoLiUwQAnf_xw1DVWD9NcyphwRn4&sid=b81a22dc3a846efd&type=xhttp&path=%2Fabaa3e5039a8&host=153.56.231.174#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%206540
-vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@153.56.231.174:443?security=reality&encryption=none&sni=78ec29x.fi16.h1clayd.click&fp=firefox&pbk=yDvxKBE3JdXsnptGoLiUwQAnf_xw1DVWD9NcyphwRn4&sid=b81a22dc3a846efd&type=xhttp&path=%2Fabaa3e5039a8#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%206783
-vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@153.56.231.174:443?security=reality&encryption=none&sni=468bc3g.fi16.h1clayd.click&fp=firefox&pbk=ITvHZlJwSY3tsZEN3uTmOGj5hUWk-uazUBh7ZGBy33o&sid=d50d9c31ff34ebc7&type=grpc&serviceName=973a13acd723#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%206854
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.206.9:19999#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%204901
-hysteria2://900c8c92-1979-4c7c-8f2f-63e87d53d8fe@uk-tube-01.stre4m.net:13337?sni=mother-earth.fyi#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%205471
-hysteria2://900c8c92-1979-4c7c-8f2f-63e87d53d8fe@128.254.186.57:13337?sni=mother-earth.fyi#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%206190
+vless://e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4@138.124.125.193:10444?security=reality&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=firefox&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%207224
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.24.73:443#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%201096
+hysteria2://900c8c92-1979-4c7c-8f2f-63e87d53d8fe@128.254.186.57:13337?sni=mother-earth.fyi#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%203492
+hysteria2://900c8c92-1979-4c7c-8f2f-63e87d53d8fe@uk-tube-01.stre4m.net:13337?sni=mother-earth.fyi#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20-%20Netherite%20-%209611

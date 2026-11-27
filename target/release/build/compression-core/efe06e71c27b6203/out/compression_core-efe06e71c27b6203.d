@@ -1,0 +1,10 @@
+/home/runner/work/netherite-parser/netherite-parser/target/release/build/compression-core/efe06e71c27b6203/out/compression_core-efe06e71c27b6203.d: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/level.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/unshared.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/util.rs
+
+/home/runner/work/netherite-parser/netherite-parser/target/release/build/compression-core/efe06e71c27b6203/out/libcompression_core-efe06e71c27b6203.rlib: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/level.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/unshared.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/util.rs
+
+/home/runner/work/netherite-parser/netherite-parser/target/release/build/compression-core/efe06e71c27b6203/out/libcompression_core-efe06e71c27b6203.rmeta: /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/lib.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/level.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/unshared.rs /home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/util.rs
+
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/lib.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/level.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/unshared.rs:
+/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.34/src/util.rs:
