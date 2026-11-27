@@ -15,7 +15,7 @@ name = "netherite"
 path = "src/main.rs"
 
 [dependencies]
-netherite-core = { path = "core" }
+netherite-core = { git = "https://github.com/GooseDev72/netherite-core.git" }
 v2keylib = { git = "https://github.com/GooseDev72/v2keylib.git" }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "net", "sync", "process"] }
 futures = "0.3"
