@@ -22,9 +22,9 @@ pub async fn scrape_channel(client: &reqwest::Client, channel: &str) -> crate::e
         if let Some(idx) = link.find("&quot;") { link.truncate(idx); }
         if link.is_empty() { continue; }
         let candidates = if let Some(decoded) = netherite_core::decode::decode_any(&link) {
-            decoded.lines().map(|s| s.trim().to_string()).filter(|s| !s.is_empty()).collect::<Vec<_>>()
+            decoded.lines().map(|s| s.trim().to_string()).filter(|s| !s.is_empty()).collect::<Vec<String>>()
         } else {
-            vec![link]
+            vec![link.clone()]
         };
         for c in candidates {
             if let Ok(node) = links::parse(&c) {

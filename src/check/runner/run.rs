@@ -5,16 +5,13 @@ use std::sync::Arc;
 use futures::StreamExt;
 use tokio::sync::Semaphore;
 
-use netherite_core::model::{Evidence, Stage, ValidationConfig as CoreConfig};
-use netherite_core::scoring;
 
-use crate::blacklist::{self, Blacklist, Resolved};
+use crate::blacklist::{Blacklist, Resolved};
 use crate::check::Core;
 use crate::models::{Candidate, Checked, Status};
 use crate::progress::Progress;
 use crate::settings::Settings;
 
-use crate::check::probe::probe;
 
 pub async fn run(
     candidates: Vec<Candidate>,

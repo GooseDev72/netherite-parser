@@ -70,7 +70,7 @@ async fn fetch_one(client: &reqwest::Client, url: &str) -> Result<(Vec<v2keylib:
         if t.is_empty() || t.starts_with('#') { continue; }
         // try decode encrypted wrapper per line
         let candidates = if let Some(d) = netherite_core::decode::decode_any(t) {
-            d.lines().map(|s| s.trim().to_string()).filter(|s| !s.is_empty()).collect()
+            d.lines().map(|s| s.trim().to_string()).filter(|s| !s.is_empty()).collect::<Vec<String>>()
         } else { vec![t.to_string()] };
         for c in candidates {
             if let Ok(n) = links::parse(&c) { nodes.push(n); }
