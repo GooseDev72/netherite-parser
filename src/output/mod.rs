@@ -5,6 +5,7 @@ pub mod headers;
 pub mod links;
 pub mod meta;
 pub mod mihomo;
+pub mod xray;
 
 use std::collections::{BTreeMap, HashMap};
 use std::path::{Path, PathBuf};
@@ -24,7 +25,7 @@ pub struct Files {
     pub meta: PathBuf,
     pub dead: PathBuf,
     pub report: PathBuf,
-    pub balancers: PathBuf,
+    pub xray: PathBuf,
 }
 
 impl Files {
@@ -35,7 +36,7 @@ impl Files {
             meta: settings.out_dir.join("meta.json"),
             dead: settings.dead_path(),
             report: settings.report_path(),
-            balancers: settings.out_dir.join("balancers.json"),
+            xray: settings.out_dir.join("xray.json"),
         }
     }
 }
@@ -73,8 +74,8 @@ pub fn write_all(
 
     let xray_nodes = &outcome.xray_nodes;
     write_splits(&settings.out_dir, xray_nodes, &country_by_key)?;
-    let balancers = render_balancers_json(xray_nodes, &country_by_key);
-    write_text(&files.balancers, &balancers)?;
+    let xray_json = xray::render(xray_nodes, &country_by_key);
+    write_text(&files.xray, &xray_json)?;
 
     Ok(files)
 }
@@ -144,97 +145,6 @@ fn sanitize_name(s: &str) -> String {
     out
 }
 
-fn render_balancers_json(nodes: &[Node], country_by_key: &HashMap<String, String>) -> String {
-    // Build proxies with unique names
-    let names = Node::unique_names(nodes);
-    let mut proxies = Vec::new();
-    for (n, name) in nodes.iter().zip(names.iter()) {
-        if let Ok(p) = node_to_mihomo_proxy(n, name) {
-            proxies.push(p);
-        }
-    }
-
-    // Group names by country
-    let mut by_country: BTreeMap<String, Vec<String>> = BTreeMap::new();
-    for (n, name) in nodes.iter().zip(names.iter()) {
-        let cc = country_by_key.get(&n.strict_key()).cloned().unwrap_or_else(|| "UNKNOWN".into());
-        by_country.entry(cc).or_default().push(name.clone());
-    }
-
-    let mut groups: Vec<serde_json::Value> = Vec::new();
-    let all_names: Vec<String> = names.clone();
-
-    // Auto-select all
-    groups.push(serde_json::json!({
-        "name": "🇪🇺 Автовыбор",
-        "type": "url-test",
-        "url": "https://www.gstatic.com/generate_204",
-        "interval": 300,
-        "tolerance": 50,
-        "proxies": all_names,
-    }));
-
-    // Per-country groups, dynamic: only if >=1
-    for (cc, members) in &by_country {
-        if members.is_empty() { continue; }
-        let label = country_group_label(cc);
-        groups.push(serde_json::json!({
-            "name": label,
-            "type": "url-test",
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": 300,
-            "tolerance": 50,
-            "proxies": members,
-        }));
-    }
-
-    // Selector on top
-    let mut selector_members = vec!["🇪🇺 Автовыбор".to_string()];
-    for cc in by_country.keys() {
-        selector_members.push(country_group_label(cc));
-    }
-    let mut proxy_groups = vec![serde_json::json!({
-        "name": "🪨 Netherite",
-        "type": "select",
-        "proxies": selector_members,
-    })];
-    proxy_groups.extend(groups);
-
-    let out = serde_json::json!({
-        "proxies": proxies,
-        "proxy-groups": proxy_groups,
-    });
-    serde_json::to_string_pretty(&out).unwrap_or_else(|_| "{}".into()) + "\n"
-}
-
-fn country_group_label(cc: &str) -> String {
-    if cc == "UNKNOWN" {
-        return "🇸🇴 Неизвестно".to_string();
-    }
-    let flag = crate::geo::flags::flag(Some(cc));
-    let name = crate::geo::country_name(Some(cc));
-    format!("{flag} {name}")
-}
-
-fn node_to_mihomo_proxy(node: &Node, name: &str) -> Result<serde_json::Value> {
-    // Render a single node via mihomo YAML then convert to JSON value for consistency.
-    let yaml = v2keylib::config::render(v2keylib::config::Format::MihomoYaml, &[node.clone()], None)?;
-    let val: serde_yaml::Value = serde_yaml::from_str(&yaml)?;
-    // extract first proxy from proxies array
-    let proxies = val.get("proxies")
-        .and_then(|v| v.as_sequence())
-        .cloned()
-        .unwrap_or_default();
-    if let Some(p) = proxies.into_iter().next() {
-        let mut j = serde_json::to_value(p)?;
-        if let Some(obj) = j.as_object_mut() {
-            obj.insert("name".to_string(), serde_json::Value::String(name.to_string()));
-        }
-        return Ok(j);
-    }
-    // fallback minimal
-    Ok(serde_json::json!({"name": name, "type": proto_name(node.protocol), "server": node.address, "port": node.port}))
-}
 
 pub fn directory(settings: &Settings) -> &Path {
     &settings.out_dir

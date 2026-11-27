@@ -29,6 +29,7 @@ pub fn render(nodes: &[Node], type_friendly: &str) -> Result<(String, usize)> {
     for node in eligible {
         match links::render(node) {
             Ok(link) => {
+                let link = fix_vmess_name(node, link);
                 body.push_str(&link);
                 body.push('\n');
             }
@@ -36,6 +37,26 @@ pub fn render(nodes: &[Node], type_friendly: &str) -> Result<(String, usize)> {
         }
     }
     Ok((body, skipped))
+}
+
+fn fix_vmess_name(node: &Node, link: String) -> String {
+    if node.protocol != Protocol::Vmess {
+        return link;
+    }
+    let Some(label) = node.label.as_deref() else { return link; };
+    let Some(b64) = link.strip_prefix("vmess://") else { return link; };
+    let Ok(bytes) = v2keylib::util::b64_decode(b64.trim()) else { return link; };
+    let Ok(mut v) = serde_json::from_slice::<serde_json::Value>(&bytes) else { return link; };
+    if let Some(obj) = v.as_object_mut() {
+        obj.insert("ps".to_string(), serde_json::Value::String(label.to_string()));
+        obj.insert("remarks".to_string(), serde_json::Value::String(label.to_string()));
+        if let Ok(out) = serde_json::to_vec(&v) {
+            use base64::Engine;
+            let enc = base64::engine::general_purpose::STANDARD.encode(out);
+            return format!("vmess://{enc}");
+        }
+    }
+    link
 }
 
 fn rank(protocol: Protocol) -> u8 {
@@ -72,6 +93,19 @@ mod tests {
         assert!(body.contains("# 🪨 Netherite Parser"));
         let links: Vec<&str> = body.lines().filter(|l| !l.starts_with('#')).collect();
         assert!(links[0].starts_with("vless://"));
+    }
+
+    #[test]
+    fn vmess_name_in_ps() {
+        let mut vmess = Node::new(Protocol::Vmess, "192.0.2.2", 443)
+            .with_uuid("00000000-0000-0000-0000-000000000002");
+        vmess.label = Some("NL-1234 Netherite".into());
+        let (body, _) = render(&[vmess], "полная подписка").unwrap();
+        let link = body.lines().find(|l| l.starts_with("vmess://")).unwrap();
+        let b64 = link.strip_prefix("vmess://").unwrap();
+        let json = String::from_utf8(v2keylib::util::b64_decode(b64).unwrap()).unwrap();
+        eprintln!("{}", json);
+        assert!(json.contains("NL-1234 Netherite"));
     }
 
     #[test]

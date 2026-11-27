@@ -15,7 +15,7 @@ name = "netherite"
 path = "src/main.rs"
 
 [dependencies]
-netherite-core = { git = "https://github.com/GooseDev72/netherite-core.git" }
+netherite-core = { path = "core" }
 v2keylib = { git = "https://github.com/GooseDev72/v2keylib.git" }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "net", "sync", "process"] }
 futures = "0.3"
@@ -26,6 +26,7 @@ toml = "0.8"
 thiserror = "2"
 reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "gzip"] }
 regex = "1"
+base64 = "0.22"
 
 [profile.release]
 lto = "thin"

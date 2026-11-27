@@ -146,7 +146,7 @@ mod tests {
             meta: PathBuf::from("sub/meta.json"),
             dead: PathBuf::from("sub/dead.txt"),
             report: PathBuf::from("sub/source_report.txt"),
-            balancers: PathBuf::from("sub/balancers.json"),
+            xray: PathBuf::from("sub/xray.json"),
         };
         let text = Summary {
             outcome: &outcome,
